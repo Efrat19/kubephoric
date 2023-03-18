@@ -1,0 +1,16 @@
+- Rewrite IRSA roles
+- add minio to the datashim post
+
+rewrite or ditch:
+- weave-cni
+- k8s dns
+- fluxcd almost zero downtime
+
+ideas:
+- NAT cost saving initiatives for 2023
+  - alterNAT
+  - per az NAT
+  - Egress-only gateway
+- flink + kraft
+- Scaling with headroom
+- prometheus relabeling

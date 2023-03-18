@@ -1,0 +1,35 @@
+title: Kubephoric
+markdown: kramdown
+google_analytics: UA-160733621-1
+
+# for atom feed
+author:
+  name: Efrat Levitan
+  email: efrat890089gmail.com
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  # - jekyll-feed
+  # - jemoji
+  - jekyll-twitter-plugin
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+paginate: 5
+paginate_path: /page:num
+gem 'github-pages', '170', group: :jekyll_plugins
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      is_post: true
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+

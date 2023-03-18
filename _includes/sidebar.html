@@ -1,0 +1,29 @@
+<!-- site bar -->
+<div id="sidebar" class="sidebar">
+  <div id="site-categories" class="side-item">
+    <div class="side-header">
+      <h2>Categories</h2>
+    </div>
+    <div class="side-content">
+      <p class="categories">
+        {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+          <a class="category" href="{{ "/categories/" | relative_url }}#{{ category_name }}"><strong>{{ category_name }}</strong></a>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+  <div id="site-categories" class="side-item">
+    <div class="side-header">
+      <h2>Recent Posts</h2>
+    </div>
+    <div class="side-content">
+      <ul class="posts-list">
+        {% for post in site.posts limit:7 %}
+        <li class="post"> <a href="{{ post.url | relative_url }}">{{ post.title }}</a> </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- sidebar -->
