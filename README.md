@@ -6,9 +6,9 @@ All contents of the site are registered in [Github public repository](https://gi
 ## Run Locally
 
 1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
+   `git clone https://github.com/efrat19/kubephoric.git`
 2. Enter the folder
-   `cd jekyll-theme-serial-programmer`
+   `cd kubephoric`
 3. Run
    `bundle install`
 4. Start Jekyll server
