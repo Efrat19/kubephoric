@@ -131,7 +131,7 @@ resource=example:helmrelease/example helmVersion=v3
 info="Helm release sync succeeded" revision=d058e851afb648eddd4d5ec29be0c163d16d0c85
 ```
 
-From now on, your release can be viewed using `helm3`. ([In this post I cover helm3 client installation steps](/blog/kubernetes/helm/2020/03/11/the-server-was-unable-to-return-a-response-in-the-time-allotted,-but-may-still-be-processing-the-request-(get-configmaps)-OR-Why-Its-Time-to-Move-to-Helm3.html)):
+From now on, your release can be viewed using `helm3`. ([In this post I cover helm3 client installation steps](/kubephoric/kubernetes/helm/2020/03/11/the-server-was-unable-to-return-a-response-in-the-time-allotted,-but-may-still-be-processing-the-request-(get-configmaps)-OR-Why-Its-Time-to-Move-to-Helm3.html)):
 
 ```console
 ~ $ helm3 ls

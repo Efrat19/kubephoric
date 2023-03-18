@@ -17,7 +17,7 @@ image:
  width: 1200
  height: 630
 ---
-If you completed [**part 1**](https://efrat19.github.io/blog/aws-managed-airflow-eks-scheduling-part-1-creating-managed-airflow-instance) on this guide and created the Managed Airflow Environment on AWS, you are ready for the next level - 
+If you completed [**part 1**](https://efrat19.github.io/kubephoric/aws-managed-airflow-eks-scheduling-part-1-creating-managed-airflow-instance) on this guide and created the Managed Airflow Environment on AWS, you are ready for the next level - 
 # Part 2 - Enabling EKS scheduling
 
 In Airflow we often use `KubernetesPodOperator` DAG class. Airflow contacts k8s API-server and asks it to spawn a pod to perform the task. In this part of the tutorial you will connect MWAA to an EKS cluster on the same VPC, and schedule an example pod on top of it.

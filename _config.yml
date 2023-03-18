@@ -1,7 +1,8 @@
 title: Kubephoric
 markdown: kramdown
 google_analytics: UA-160733621-1
-
+baseurl: "/kubephoric"
+url: "http://efrat19.github.io"
 # for atom feed
 author:
   name: Efrat Levitan
