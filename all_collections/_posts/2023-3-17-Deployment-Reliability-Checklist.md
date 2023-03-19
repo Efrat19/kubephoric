@@ -7,7 +7,7 @@ permalink: /:slug
 
 ---
 
-Do you get health-alerts during version releases? clients keep reporting slippery 503 errors? During my time at multiple companies, working on different apps, I gathered a little list you can go through to make sure you are using the full power of kubernetes to increase app reliability:
+Do you get health-alerts during version releases? clients keep reporting slippery 503 errors? During my SRE years, working on different apps, I gathered a little list you can go through to make sure you are using the full power of kubernetes to increase app reliability:
 
 ## 1. Spread the Love!
 K8s v1.18 comes with the expressive notion of pods `topologySpreadConstraints`, Which is a great way to improve your app reliability by nicely asking the scheduler to spread pods across nodes, node-groups or availability zones.
