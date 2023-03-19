@@ -5,7 +5,7 @@ categories: ["Kubernetes","SRE","deployment"]
 permalink: /:slug
 
 ---
-> **DISCLAIMER**: This was originally part of a talk I submitted for some k8s meetup. It was rejected (sadly). Now that I got it written down I agree it might be a bit boring for the common folks. Its also not for k8s beginners. or masters. or those in the middle. Anyway I still :heart: this post so its here, read at your own risk.
+<!-- > **DISCLAIMER**: This was originally part of a talk I submitted for some k8s meetup. It was rejected (sadly). Now that I got it written down I agree it might be a bit boring for the common folks. Its also not for k8s beginners. or masters. or those in the middle. Anyway I still :heart: this post so its here, read at your own risk. -->
 
 Working on k8s clusters always gives me the feeling it's almost alive. Hundreds of processes constantly carrying on their responsibilities, just as they would in a living organ.
 
