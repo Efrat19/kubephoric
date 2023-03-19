@@ -60,7 +60,7 @@ spec:
 ```
 
 ## 2. Fine-tune your updates
-Ask quetions about the app update process. How long it takes for typical request to complete? (might want to increase `TerminationGracePeriod`). How long it takes for the app to be up? (tune `MinReadySeconds` to make sure during an update, old pods will not be terminated before the new pods are ready to serve) more details in [deployment-controller-revealed](/kubernetes/sre/deployment/2023/03/15/deployment-controller-revealed.html)
+Ask quetions about the app update process. How long it takes for typical request to complete? (might want to increase `TerminationGracePeriod`). How long it takes for the app to be up? (tune `MinReadySeconds` to make sure during an update, old pods will not be terminated before the new pods are ready to serve) more details in [deployment-controller-revealed](https://efrat19.github.io/kubephoric/deployment-controller-revealed)
 
 ## 3. Handle spots termination
 When running on cloud spot instances, you can save lots of money, but should also take precausions to avoid app failure during nodes termination. EKS **managed** node groups automatically take care of moving your pods during the ITN heads-up period (usually 2 minutes before the node goes down).
